@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+       android:layout_toRightOf="@+id/txt_Country"
+       android:layout_toRightOf="@+id/txt_ActiveCases"
+       android:layout_toRightOf="@+id/txt_TotalCases"
+       android:layout_toRightOf="@+id/txt_TotalDeaths"
+   -->
+
+    <TextView
+        android:id="@+id/txt_Country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_ActiveCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Country"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_TotalCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ActiveCases"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_TotalDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_TotalCases"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_TotalRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_TotalDeaths"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+   <!-- <ImageView
+        android:id="@+id/img_Flag"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_below="@+id/txt_TotalDeaths"
+        android:layout_marginTop="19dp" />-->
+
+    <TextView
+        android:id="@+id/txt_Seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_TotalRecovered"
+        android:text="------------------------"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Covid Tracker</string>
+
+    <string-array name="testItem">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+    </string-array>
+</resources>
